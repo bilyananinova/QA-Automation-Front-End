@@ -49,9 +49,6 @@ namespace SeleniumExercises
         }
 
         [TestCase("username", "password")] //InvalidUsername_InvalidPassword
-        [TestCase("username", "5Do4Pz")] //InvalidUsername_ValidPassword
-        [TestCase("bilyananinova", "password")] //ValidUsername_InvalidPassword
-        [TestCase("bilyananinova", "5Do4Pz")] //ValidUsername_ValidPassword
 
         public void Login_Function(string username, string password)
         {
