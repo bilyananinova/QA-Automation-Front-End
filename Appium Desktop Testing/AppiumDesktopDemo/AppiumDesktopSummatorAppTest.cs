@@ -7,7 +7,7 @@ namespace AppiumDesktopDemo.Tests
     public class AppiumDesktopSummatorAppTest
     {
         private const string appiumServer = "http://[::1]:4723/wd/hub";
-        private const string appLocation = @"D:\SoftUni\QA Automation Front-End - march 2023\05. Appium Desktop Testing\SummatorDesktopApp.exe";
+        private const string appLocation = @"SummatorDesktopApp.exe";
         private WindowsDriver<WindowsElement> driver;
         private AppiumOptions options;
 
