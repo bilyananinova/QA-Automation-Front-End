@@ -5,7 +5,7 @@ namespace SeleniumAndPOM.Pages
     public class BasePage
     {
         protected readonly IWebDriver driver;
-        private string BaseUrl = "https://brandy-shop.web.app/";
+        //private string BaseUrl = "https://brandy-shop.web.app/";
 
         public BasePage(WebDriver driver)
         {
