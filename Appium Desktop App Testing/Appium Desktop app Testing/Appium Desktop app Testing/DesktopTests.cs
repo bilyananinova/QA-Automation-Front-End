@@ -9,7 +9,7 @@ namespace AppiumDesktopTestingExercises
     {
         private const string appiumServer = "http://127.0.0.1:4723/wd/hub";
         private const string appLocation = @"C:\Program Files\7-Zip\7zFM.exe";
-        private const string directory = @"C:\Users\Admin\Desktop\Demo";
+        private const string directory = @"C:\Demo";
         private WindowsDriver<WindowsElement> driver;
         private WindowsDriver<WindowsElement> archiveDriver;
         private AppiumOptions options;
